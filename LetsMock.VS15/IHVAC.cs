@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace LetsMock.VS15
 {
-    public class Class1
+    public interface IHVAC
     {
+        void Cool();
+        void Heat();
+        void Off();
     }
 }
